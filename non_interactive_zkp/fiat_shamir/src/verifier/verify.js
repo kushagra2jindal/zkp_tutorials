@@ -12,7 +12,7 @@ const testData = {
     a2y: 84117751913416517561941605724369294546623030030082661091775608564682458536962n
 };
 
-const verifierContractAddress = '0xce351Be8E21Cb3d18bfbbB85f75321CF104C84F0';
+const verifierContractAddress = '0x76da5Eb2878db4eCE3aB81C2bF4eF5cC7048Fa46';
 
 const callVerifier = async() => {
 
