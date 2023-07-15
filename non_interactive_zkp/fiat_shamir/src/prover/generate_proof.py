@@ -27,7 +27,7 @@ print('vG => ', vG)
 print('a1 => ', a1)
 print('a2 => ', a2)
 
-# Vcheck = point_add(a1, a2)
+Vcheck = point_add(a1, a2)
 
 # Vcheck = point_add(scalar_mult(r,curve.g),scalar_mult(c,xG))
 
@@ -36,5 +36,5 @@ print('a2 => ', a2)
 # print (f"\nv= {v}, vG={vG}")
 # print (f"\nr= {r}, c={c}")
 
-# if (vG==Vcheck): print("\nIt has been proven!!!")
-# else: print("\nNot proven!!!")
+if (vG==Vcheck): print("\nIt has been proven!!!")
+else: print("\nNot proven!!!")
